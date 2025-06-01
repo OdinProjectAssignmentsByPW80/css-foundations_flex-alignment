@@ -5,7 +5,46 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* == ASSIGNMENT == */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+/* == ASSIGNMENT == */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* == END ASSIGNMENT == */
 
 img {
   width: 600px;
@@ -16,6 +55,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* == ASSIGNMENT == */
+  padding: 8px;
 }
 
 input {
@@ -24,3 +65,11 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*
+  >> NOTE <<
+  Big difference:
+  - solution uses `flex: 1` to make the content div fill the space
+  - I used `justify-content: space between`
+  For a less spartan page, solution makes sense.
+*/
