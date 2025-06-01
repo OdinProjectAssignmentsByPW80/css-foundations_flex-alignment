@@ -22,6 +22,14 @@ Exercises implementing `display: flex;` to solve alignment issues.
 
 *coming soon*
 
+---
+
+### ToDo
+
+- upload flex-header-2 before image
+- add results table w/ images
+- update origin with link
+
 <!-- <table>
 
 <tr>
