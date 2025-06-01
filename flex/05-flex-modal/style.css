@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,8 +20,31 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+  /* == ASSIGNMENT == */
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
+
+/* == ASSIGNMENT == */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* == END ASSIGNMENT == */
 
 .icon {
   color: royalblue;
@@ -33,6 +57,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* == ASSIGNMENT == */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +93,10 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*
+  >> NOTE <<
+  Solution uses a different layout and thus different css. Biggest difference is
+  placing the close button inside the header div. I'm not use it makes much
+  difference but less divs is probably easier to maintain.
+*/
