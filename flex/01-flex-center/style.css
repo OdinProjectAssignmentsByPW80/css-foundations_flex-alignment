@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /* == ASSIGNMENT ==*/
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .box {
@@ -12,4 +16,14 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* == ASSIGNMENT ==*/
+  align-self: center;
 }
+
+/*
+  Can either use `align-items: center;` on flex container or
+  `align-self: center;` on flex item to center vertically. Both doesn't hurt but
+  is not needed.
+  Probably favour container when all items are aligned the same and item
+  otherwise.
+*/
