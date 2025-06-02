@@ -10,13 +10,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 
 ## Assignment Instructions
 
- - ### [01 - Flex Center &rArr;](./flex/01-flex-center/)
- - ### [02 - Flex Header &rArr;](./flex/02-flex-header/)
- - ### [03 - Flex Header 2 &rArr;](./flex/03-flex-header-2/)
- - ### [04 - Flex Information &rArr;](./flex/04-flex-information/)
- - ### [05 - Flex Modal &rArr;](./flex/05-flex-modal/)
- - ### [06 - Flex Layout 1 &rArr;](./flex/06-flex-layout-1/)
- - ### [07 - Flex Layout 2 &rArr;](./flex/07-flex-layout-2/)
+ - [01 - Flex Center &rArr;](./flex/01-flex-center/)
+ - [03 - Flex Header 2 &rArr;](./flex/03-flex-header-2/)
+ - [04 - Flex Information &rArr;](./flex/04-flex-information/)
+ - [02 - Flex Header &rArr;](./flex/02-flex-header/)
+ - [05 - Flex Modal &rArr;](./flex/05-flex-modal/)
+ - [06 - Flex Layout 1 &rArr;](./flex/06-flex-layout-1/)
+ - [07 - Flex Layout 2 &rArr;](./flex/07-flex-layout-2/)
 
 ## Results
 
