@@ -20,22 +20,12 @@ Exercises implementing `display: flex;` to solve alignment issues.
 
 ## Results
 
-*coming soon*
-
----
-
-### ToDo
-
-- upload flex-header-2 before image
-- add results table w/ images
-- update origin with link
-
-<!-- <table>
+<table>
 
 <tr>
 <td width="47%">
 
-### 01 - CSS Methods
+### 01 - Flex Center
 
 </td>
 <td width="6%"></td>
@@ -45,13 +35,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-#### UNSTYLED
+#### BEFORE
 
 </td>
 <td></td>
 <td>
 
-#### STYLED
+#### AFTER
 
 </td>
 </tr>
@@ -59,7 +49,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-![css methods unstyled](./img/unstyled1.png)
+![flex center before](./img/flex1-before.png)
 
 </td>
 <td align="center">
@@ -67,7 +57,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 </td>
 <td>
 
-![css methods styled](./img/styled1.png)
+![flex center after](./img/flex1-after.png)
 
 </td>
 </tr>
@@ -75,7 +65,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-### 02 - Class ID Selectors
+### 02 - Flex Header
 
 </td>
 <td></td>
@@ -85,13 +75,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-#### UNSTYLED
+#### BEFORE
 
 </td>
 <td></td>
 <td>
 
-#### STYLED
+#### AFTER
 
 </td>
 </tr>
@@ -99,7 +89,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-![css methods unstyled](./img/unstyled2.png)
+![flex header before](./img/flex2-before.png)
 
 </td>
 <td align="center">
@@ -107,7 +97,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 </td>
 <td>
 
-![css methods styled](./img/styled2.png)
+![flex header after](./img/flex2-after.png)
 
 </td>
 </tr>
@@ -115,7 +105,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-### 03 - Grouping Selectors
+### 03 - Flex Header 2
 
 </td>
 <td></td>
@@ -125,13 +115,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-#### UNSTYLED
+#### BEFORE
 
 </td>
 <td></td>
 <td>
 
-#### STYLED
+#### AFTER
 
 </td>
 </tr>
@@ -139,7 +129,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-![grouping selectors unstyled](./img/unstyled3.png)
+![flex header 2 before](./img/flex3-before.png)
 
 </td>
 <td align="center">
@@ -147,7 +137,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 </td>
 <td>
 
-![grouping selectors styled](./img/styled3.png)
+![flex header 2 after](./img/flex3-after.png)
 
 </td>
 </tr>
@@ -155,7 +145,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-### 04 - Chaining Selectors
+### 04 - Flex Information
 
 </td>
 <td></td>
@@ -165,13 +155,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-#### UNSTYLED
+#### BEFORE
 
 </td>
 <td></td>
 <td>
 
-#### STYLED
+#### AFTER
 
 </td>
 </tr>
@@ -179,7 +169,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-![chaining selectors unstyled](./img/unstyled4.png)
+![flex information before](./img/flex4-before.png)
 
 </td>
 <td align="center">
@@ -187,7 +177,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 </td>
 <td>
 
-![chaining selectors styled](./img/styled4.png)
+![flex information after](./img/flex4-after.png)
 
 </td>
 </tr>
@@ -195,7 +185,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-### 05 - Descendant Combinator
+### 05 - Flex Modal
 
 </td>
 <td></td>
@@ -205,13 +195,13 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-#### UNSTYLED
+#### BEFORE
 
 </td>
 <td></td>
 <td>
 
-#### STYLED
+#### AFTER
 
 </td>
 </tr>
@@ -219,7 +209,7 @@ Exercises implementing `display: flex;` to solve alignment issues.
 <tr>
 <td>
 
-![descendant combinator unstyled](./img/unstyled5.png)
+![flex modal before](./img/flex5-before.png)
 
 </td>
 <td align="center">
@@ -227,9 +217,91 @@ Exercises implementing `display: flex;` to solve alignment issues.
 </td>
 <td>
 
-![descendant combinator styled](./img/styled5.png)
+![flex modal after](./img/flex5-after.png)
 
 </td>
 </tr>
 
-</table> -->
+<tr>
+<td>
+
+### 06 - Flex Layout 1
+
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+#### BEFORE
+
+</td>
+<td></td>
+<td>
+
+#### AFTER
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+![flex layout before](./img/flex6-before.png)
+
+</td>
+<td align="center">
+<h1>&rArr;</h1>
+</td>
+<td>
+
+![flex layout after](./img/flex6-after.png)
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 06 - Flex Layout 2
+
+</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+
+#### BEFORE
+
+</td>
+<td></td>
+<td>
+
+#### AFTER
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+![flex layout 2 before](./img/flex7-before.png)
+
+</td>
+<td align="center">
+<h1>&rArr;</h1>
+</td>
+<td>
+
+![flex layout 2 after](./img/flex7-after.png)
+
+</td>
+</tr>
+
+
+
+</table>
