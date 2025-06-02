@@ -1,67 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
+  /* ::typography:: */
+  font-family: Roboto, sans-serif;
+
+  /* ::box-model:: */
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
-  /* == ASSIGNMENT == */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+  /* ::layout:: */
+  display: flex; /* <= ASSIGNMENT =| */
+  flex-direction: column; /* <= ASSIGNMENT =| */
+  justify-content: space-between; /* <= ASSIGNMENT =| */
 }
 
 /* == ASSIGNMENT == */
-
 a {
-  color: black;
+  /* ::typography:: */
   text-decoration: none;
+
+  /* ::box-model:: */
+  color: black;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+  /* ::typography:: */
   list-style-type: none;
+
+  /* ::box-model:: */
+  margin: 0;
+  padding: 0;
+
+  /* ::layout:: */
   display: flex;
   gap: 16px;
 }
 
 .header,
 .footer {
+  /* ::layout:: */
   display: flex;
   justify-content: space-between;
   padding: 16px;
 }
 
 .footer {
+  /* ::box-model:: */
   background-color: #eeeeee;
 }
 
 .content {
+  /* ::layout:: */
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   gap: 16px;
 }
-
 /* == END ASSIGNMENT == */
 
 img {
+  /* ::box-model:: */
   width: 600px;
 }
 
 button {
+  /* ::typography:: */
   font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
+
+  /* ::box-model:: */
   background: #eee;
-  /* == ASSIGNMENT == */
-  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px; /* <= ASSIGNMENT =| */
 }
 
 input {
-  border: 1px solid #ddd;
+  /* ::box-model:: */
   border-radius: 16px;
+  border: 1px solid #ddd;
   padding: 8px 24px;
   width: 400px;
 }

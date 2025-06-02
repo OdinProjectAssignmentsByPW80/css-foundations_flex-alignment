@@ -1,72 +1,77 @@
-/*
-div.header
-  div.header-left
-    div.logo
-    ul.links
-      [li>a]*3
-  div.header-right
-    button.notification
-    div.profile-image
-*/
-
-/* this is some magical font-importing.
-you'll learn about it later. */
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+/* This is some magical font-importing. You'll learn about it later. */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
 body {
-  margin: 0;
-  background: #eee;
+  /* ::typography:: */
   font-family: Besley, serif;
+
+  /* ::box-model:: */
+  background: #eee;
+  margin: 0;
 }
 
 .header {
+  /* ::box-model:: */
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
-  /* == ASSIGNMENT == */
-  padding: 8px;
-  display: flex;
-  justify-content: space-between;
-}
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 8px; /* <= ASSIGNMENT =| */
 
-/* == ASSIGNMENT == */
-.flex-align {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin: 0;
-  padding: 0;
+  /* ::layout:: */
+  display: flex; /* <= ASSIGNMENT =| */
+  justify-content: space-between; /* <= ASSIGNMENT =| */
 }
 
 .profile-image {
+  /* ::box-model:: */
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
   border-radius: 50%;
-  width: 48px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   height: 48px;
+  width: 48px;
 }
 
 .logo {
-  color: rebeccapurple;
+  /* ::typography:: */
   font-size: 32px;
-  font-weight: 900;
   font-style: italic;
+  font-weight: 900;
+
+  /* ::box-model:: */
+  color: rebeccapurple;
 }
 
 button {
-  border: none;
-  border-radius: 8px;
-  background: rebeccapurple;
+  /* ::box-model:: */
   color: white;
+  background: rebeccapurple;
+  border-radius: 8px;
+  border: none;
   padding: 8px 24px;
 }
 
 a {
-  /* this removes the line under our links */
+  /* ::typography:: */
   text-decoration: none;
+
+  /* ::box-model:: */
   color: rebeccapurple;
 }
 
 ul {
+  /* ::typography:: */
   list-style-type: none;
 }
+
+/* == ASSIGNMENT == */
+.flex-align {
+  /* ::box-model:: */
+  margin: 0;
+  padding: 0;
+
+  /* ::layout:: */
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+/* == END ASSIGNMENT == */

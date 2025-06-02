@@ -1,44 +1,56 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  /* ::typography:: */
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
-  width: 100px;
+  /* ::box-model:: */
   height: 100px;
+  width: 100px;
 }
 
 .title {
+  /* ::typography:: */
   font-size: 36px;
   font-weight: 900;
 }
 
-/* do not edit this footer */
 .footer {
+  /* ::box-model:: */
+  background: #eee;
+  height: 52px;
+
+  /* ::layout - position:: */
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52px;
+  /* ::::layout - flex:::: */
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eee;
 }
 
 /* == ASSIGNMENT == */
 .main-container {
+  /* ::position - flex:: */
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   gap: 32px;
 }
 
 .images-container {
+  /* ::layout:: */
   display: flex;
   gap: 52px;
 }
 
 .item {
-  width: 200px;
+  /* ::typography:: */
   text-align: center;
+
+  /* ::box-model:: */
+  width: 200px;
 }
+/* == END ASSIGNMENT == */

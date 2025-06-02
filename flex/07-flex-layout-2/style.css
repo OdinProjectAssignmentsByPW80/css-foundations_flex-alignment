@@ -1,72 +1,94 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* ::typography:: */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  /* ::box-model:: */
   margin: 0;
   min-height: 100vh;
-  /* == ASSIGNMENT == */
-  display: flex;
-  flex-direction: column;
+
+  display: flex; /* <= ASSIGNMENT =| */
+  flex-direction: column; /* <= ASSIGNMENT =| */
 }
 
 .header {
-  height: 72px;
+  /* ::typography:: */
+  font-size: 32px; /* <= ASSIGNMENT =| */
+  font-weight: 900; /* <= ASSIGNMENT =| */
+
+  /* ::box-model:: */
   background: darkmagenta;
   color: white;
-  /* == ASSIGNMENT == */
-  display: flex;
-  align-items: center;
-  font-size: 32px;
-  font-weight: 900;
-  padding: 16px;
+  height: 72px;
+  padding: 16px; /* <= ASSIGNMENT =| */
+
+  /* ::layout:: */
+  display: flex; /* <= ASSIGNMENT =| */
+  align-items: center; /* <= ASSIGNMENT =| */
 }
 
 .footer {
-  height: 72px;
+  /* ::box-model:: */
   background: #eee;
   color: darkmagenta;
-  /* == ASSIGNMENT == */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 72px;
+
+  /* ::layout:: */
+  display: flex; /* <= ASSIGNMENT =| */
+  align-items: center; /* <= ASSIGNMENT =| */
+  justify-content: center; /* <= ASSIGNMENT =| */
 }
 
 .sidebar {
-  width: 300px;
+  /* ::box-model:: */
   background: royalblue;
   box-sizing: border-box;
-  /* == ASSIGNMENT == */
-  flex-shrink: 0;
-  padding: 16px;
+  padding: 16px; /* <= ASSIGNMENT =| */
+  width: 300px;
+
+  /* ::layout:: */
+  flex-shrink: 0; /* <= ASSIGNMENT =| */
 }
 
 .card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+  /* ::box-model:: */
   border-radius: 4px;
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 /* == ASSIGNMENT == */
 .content {
-  flex-grow: 1;
+  /* ::layout:: */
   display: flex;
+  flex-grow: 1;
 }
 
 .cards {
+  /* ::box-model:: */
+  padding: 48px;
+
+  /* ::layout:: */
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  padding: 48px;
 }
 
 .card {
-  width: 300px;
+  /* ::box-model:: */
   padding: 16px;
+  width: 300px;
 }
 
 .sidebar a {
+  /* ::typography:: */
   font-size: 24px;
-  color: white;
   text-decoration: none;
+
+  /* ::box-model:: */
+  color: white;
 }
+/* == END ASSIGNMENT == */
 
 /*
   >> NOTE <<
